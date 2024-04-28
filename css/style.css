@@ -1,0 +1,74 @@
+:root {
+    --dark-text: #e5f3fe;
+    --dark-background: #010c16;
+    --dark-primary: #80bcfa;
+    --dark-secondary: #1d0696;
+    --dark-accent: #650FF5;
+
+    /* FONTS */
+    --title: 'Bruno Ace SC', display, sans-serif;
+    --text: 'Aldrich', sans-serif;
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: var(--text);
+    background-color: var(--dark-background);
+    color: var(--dark-text);
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    color: black;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+h1, h2 {
+    padding-bottom: 2em;
+}
+
+.btn:hover, .btn:focus {
+    font-size: small;
+    border: 3px solid #fff;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+}
+
+/*-- NAVBAR --*/
+
+/*-- INTRO --*/
+
+/*-- ABOUT --*/
+
+/*-- EDUCATION --*/
+
+/*-- SKILLS --*/
+
+/*-- PROJECTS --*/
+
+#projects a {
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+
+.card {
+    min-height: 25rem;
+}
+
+.project {
+    width: 20rem;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+    overflow: hidden;
+    transition:transform .4s;
+}
+
+.project:hover {
+    transform:scale(1.08);
+}
+
+/*-- FOOTER --*/
+
