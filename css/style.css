@@ -8,6 +8,7 @@
     /* FONTS */
     --title: 'Bruno Ace SC', display, sans-serif;
     --text: 'Aldrich', sans-serif;
+    --footer: 'Megrim', sans-serif;
 }
 
 h1, h2 {
@@ -65,7 +66,7 @@ a.btn {
 
 .navbar {
     background-color: var(--dark-accent);
-    border-bottom: 1px solid var(--dark-secondary);
+    border-bottom: 1px solid var(--dark-primary);
     padding: 1em;
     margin: 0;
 }
@@ -78,9 +79,17 @@ a.btn {
 
 .navbar a:hover {
     color: var(--dark-primary);
+    text-decoration: underline;
 }
 
 /*-- INTRO --*/
+
+#intro {
+    background-image: url('/images/background-robot.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /*-- ABOUT --*/
 
@@ -94,6 +103,11 @@ a.btn {
 /*-- EDUCATION --*/
 
 /*-- SKILLS --*/
+
+.fa {
+    font-size: 2em;
+    color: var(--dark-primary);
+}
 
 /*-- PROJECTS --*/
 
@@ -124,5 +138,6 @@ footer {
     border-top: 1px solid var(--dark-primary);
     color: var(--dark-text);
     text-align: center;
+    font-family: var(--footer);
 }
 
