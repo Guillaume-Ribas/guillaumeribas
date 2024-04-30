@@ -52,10 +52,10 @@ a.btn {
     font-size: small;
 }
 
-.container-fluid {
+.container {
     font-family: var(--text);
     background-color: var(--dark-background);
-    color: var(--dark-text);;
+    color: var(--dark-text);
 }
 
 /*-- NAVBAR --*/
@@ -85,10 +85,16 @@ a.btn {
 /*-- INTRO --*/
 
 #intro {
-    background-image: url('/images/background-robot.png');
+    padding: 12em 0;
+    width: 100%;
+}
+
+.bg_img {
+    background-image: url('../images/..');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    align-self: center;
 }
 
 /*-- ABOUT --*/
@@ -139,5 +145,11 @@ footer {
     color: var(--dark-text);
     text-align: center;
     font-family: var(--footer);
+    font-size: small;
+    width:100%;
+}
+
+footer svg:hover {
+    fill: var(--dark-background);
 }
 
