@@ -72,23 +72,23 @@ a.btn {
     border-bottom: 1px solid var(--dark-primary);
 }
 
-.navbar a {
+.navbar-nav a {
     color: var(--dark-text);
     font-family: var(--title);
     font-size: large;
 }
 
-.navbar a:hover {
+.navbar-nav a:hover {
     color: var(--dark-primary);
     text-decoration: underline;
 }
-.navbar-brand a:hover {
-    color: var(--dark-primary);
-    text-decoration: none;
+
+.navbar-brand {
+    color: var(--dark-text);
 }
 
-.navbar-brand .title a:hover {
-    text-decoration: none;
+.navbar-brand:hover {
+    color: var(--dark-primary);
 }
 
 /*-- INTRO --*/
@@ -158,6 +158,6 @@ a.btn {
 }
 
 #footer svg:hover {
-    fill: var(--dark-background);
+    fill: var(--dark-primary);
 }
 
