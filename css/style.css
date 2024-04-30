@@ -98,14 +98,6 @@ a.btn {
     width: 100%;
 }
 
-.bg_img {
-    background-image: url('../images/..');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-self: center;
-}
-
 /*-- ABOUT --*/
 
 .link {
