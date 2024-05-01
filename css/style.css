@@ -67,6 +67,10 @@ a.btn {
     background-color: var(--dark-accent);
 }
 
+.fa-bars{
+    color: var(--dark-text);
+}
+
 .navbar {
     background-color: var(--dark-accent);
     border-bottom: 1px solid var(--dark-primary);
@@ -91,6 +95,10 @@ a.btn {
     color: var(--dark-primary);
 }
 
+.nav-item{
+    text-align: right;
+}
+
 /*-- INTRO --*/
 
 #intro {
@@ -110,11 +118,6 @@ a.btn {
 /*-- EDUCATION --*/
 
 /*-- SKILLS --*/
-
-.fa {
-    font-size: 2em;
-    color: var(--dark-primary);
-}
 
 /*-- PROJECTS --*/
 
